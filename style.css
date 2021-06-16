@@ -1,142 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
 
-body{
-    background: linear-gradient(-90deg, #404040, #4d4d4d, #595959, #808080, #999999, #cccccc, #d9d9d9);
+body {
+    background: linear-gradient(90deg, green, yellow)
 }
-.title-bar{
-    width: 100%;
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+.videos_icon{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    width: 300px;
+    height: 180px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    background: linear-gradient(90deg, #ffffff, #ffff00, #ffffff);
+    padding: 10px;
+    border-radius: 10px;
+}
+.videos_icon img{
     height: 50px;
-    background-color: black;
-}
-#logo{
-    width: 48px;
-    height: 48px;
-    position: absolute;
-    left: 10px;
-    top: 9px;
-}
-#home{
-    width: 60px;
-    height: 30px;
-    position: absolute;
-    top: 18px;
-    left: 71px;
-    background-color: red;
-    color: black;
-    border: 2px solid black;
-    border-radius: 10px;
-    cursor: pointer;
-}
-#home:hover{
-    background-color: black;
-    color: red;
-    border: 2px solid red;
-}
-#merch{
-    height: 30px;
-    width: 60px;
-    background-color: red;
-    color: black;
-    border: 2px solid black;
-    border-radius: 10px;
-    position: absolute;
-    top: 18px;
-    left: 251px; 
-    cursor: pointer;
-}
-#merch:hover{
-    background-color: black;
-    color: red;
-    border: 2px solid red; 
-}
-#games{
-    background-color: red;
-    color: black;
-    border: 2px solid black;
-    border-radius:10px;
-    height: 30px;
-    width: 60px;
-    position: absolute;
-    top: 18px;
-    left: 131px;
-    cursor: pointer;
-}
-#games:hover{
-    background-color: black;
-    color: red;
-    border: 2px solid red;;
-}
-#videos{
-    height: 30px;
-    width: 60px;
-    background-color: red;
-    color: black;
-    border: 2px solid black;
-    border-radius: 10px;
-    position: absolute;
-    top: 18px;
-    left: 191px; 
-    cursor: pointer;
-}
-#videos:hover{
-    background-color: black;
-    color: red;
-    border: 2px solid red; 
-}
-#title{
-    color: white;
-    font-family: Zen Dots;
-    text-align: center;
-    margin: auto;
-}
-.channel{
-    text-align: center;
-}
-#channel{
-    font-size: 2rem;
-    color: white;
-    font-family: Merriweather;
-    margin: auto;
-}
-#ChannelL{
-    height: 100px;
     width: 100px;
-    border-radius: 100px;
-    margin: auto;
-    text-align: center;
-    margin: auto;
 }
-#subscribe{
-    font-size: 2rem;
-    font-weight: bold;
-    background-color: red;
-    color: white;
-    margin: auto;
-}
-#subscribe:hover{
-    background-color: white;
-    color: red; 
-}
-.line{
-    width: 100%;
-    background-color: white;
-    height: 10px;
-}
-#merch{
-    height: 30px;
-    width: 60px;
-    background-color: red;
+.videos_icon h4{
     color: black;
-    border: 2px solid black;
+    font-family: Do Hyeon;
+} 
+.button{
+    width: 100px;
+    height: 50px;
     border-radius: 10px;
-    position: absolute;
-    top: 18px;
-    left: 251px; 
+    background-color: red;
+    border: 0;
+    color: white;
+    font-size: 20px;
     cursor: pointer;
 }
-#merch:hover{
-    background-color: black;
+.button:hover{
     color: red;
-    border: 2px solid red; 
+    background-color: white;
+}
+.modal-content{
+    margin-top: 100px;
+}
+.modal{
+    text-align: center;
+}
+.modal-body iframe{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
